@@ -3,7 +3,7 @@ import numpy as np
 import tensorflow as tf
 
 # Load the model
-model = tf.keras.models.load_model("churn_model.h5")
+model = tf.keras.models.load_model("churn_model.keras")
 
 st.title("Customer Churn Prediction")
 
